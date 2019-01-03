@@ -13,6 +13,8 @@
 
 5，数据展示模块：图形展示关键指标，性能，请求数
 
+6, output 模块： 日志、email、kafka
+
 ### 安装
 
 #sudo apt-get install libpcre3 libpcre3-dev openssl wget libssl-dev
@@ -34,3 +36,6 @@
 #./configure --prefix=/usr/local/nginx --with-jemalloc=/usr/local/src/jemalloc-5.1.0 --with-http_lua_module --with-luajit-lib=/usr/local/lib/ --with-luajit-inc=/usr/local/include/luajit-2.1/ --with-lua-inc=/usr/local/include/luajit-2.1/ 
 
 #make && make install
+
+
+
