@@ -1,22 +1,23 @@
 # peppa_waf ：
 
 #### an open source waf (Web Application Firewalls) base on Tengine-2.2.2 and luajit2.1.0，jemalloc-5.1.0
-### 计划包括如下模块：
+
+### 包括如下模块：
 
 
-1，规则处理引擎：加载规则并实时分析处理请求并拦截异常流量
+1，规则处理引擎：加载规则,实时分析处理请求,拦截异常流量
 
-2，API接口模块： 动态添加规则，相关模块的启停
+2，API接口模块: 动态添加规则,相关模块的启停
 
 
 
-###功能
+### 功能
 
-1，IP 黑白名单，URL(正则URL)/域名(正则域名)/泛域名黑名单
+1，IP黑白名单,URL(正则URL)/域名(正则域名)/泛域名黑名单
 
-2，CC , 域名/URL限流
+2，CC防御,域名/URL限流
 
-3, Get/Post/UA 等恶意参数拦截
+3, Get/Post/UA等恶意参数拦截
 
  
 
